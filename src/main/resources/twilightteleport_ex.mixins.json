@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.x7bbbbbbb.twilightteleport_ex.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PendingTeleportManagerMixin",
+    "ServerPlayNetworkHandlerTeleportMixin",
+    "ServerPlayerEntityTeleportMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
